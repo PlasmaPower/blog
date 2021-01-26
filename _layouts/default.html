@@ -3,8 +3,8 @@
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 <meta charset="{{ site.encoding }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+{% seo %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 {% if site.show_frame %}
 <link rel="stylesheet" href="{{ "/assets/css/frame.css" | relative_url }}">
@@ -37,7 +37,7 @@
 
 {% if site.show_social %}
 <footer>
-  <div>{{ site.description | default: site.title }}</div>
+  <div>Made with <b style="color: #f45;">&lt;3</b></div>
   {% include menu.html menu=site.external icon=true %}
 </footer>
 {% endif %}

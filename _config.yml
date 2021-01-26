@@ -1,6 +1,5 @@
 title: "PlasmaPower's Blog"
 author: "Lee Bousfield"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:year-:month-:day/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -29,5 +28,11 @@ comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
+# SEO
+
+twitter:
+  username: PlasmaPower0
+
 plugins:
  - jekyll-feed
+ - jekyll-seo-tag
