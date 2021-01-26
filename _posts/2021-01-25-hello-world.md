@@ -31,7 +31,7 @@ so the server shouldn't get too much load, and I'm fine if it goes down.
 ## Plans for this Blog
 
 So far, this blog is just this post and [the About page](/about).
-I'm not entirely what I'll write about next.
+I'm not entirely sure what I'll write about next.
 I've considered writing about my thoughts on Nano PoW improvements,
 but that might be better suited for [the Nano Forum](https://forum.nano.org/).
 I've also heard people asking what was going on with the recent Nano spam attack
