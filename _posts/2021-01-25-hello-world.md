@@ -28,6 +28,15 @@ but I'm hosting this blog subdomain with a CNAME DNS record.
 That means requests to the blog subdomain don't go through the server,
 so the server shouldn't get too much load, and I'm fine if it goes down.
 
+**Edit 2021-01-26:**
+I've decided to pass my domain through Cloudflare.
+This improves speed a bit,
+enables Cloudflare's "always online" technology in case GitHub Pages goes down,
+and gives me some basic analytics (nothing individual, I'm not tracking you,
+it's just generic numbers of unique visitors and such).
+I've also effectively replaced my server's redirects with ones from Cloudflare,
+but my server is still responsible for hosting personal projects.
+
 ## Plans for this Blog
 
 So far, this blog is just this post and [the About page](/about).
